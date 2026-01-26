@@ -13,9 +13,10 @@
 6. Open a new cmd terminal.
 7. Run ```ant -v``` to check if it worked. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected.
 
+
 ## If you’re using Linux
-Try ```ant -v```, it should already be installed. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist!
-Build failed``` This actually means everything works as expected. If Ant isn’t installed for some reason, get it via apt, pacman, etc.
+Try ```ant -v```, it should already be installed. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist!Build failed``` This actually means everything works as expected. If Ant isn’t installed for some reason, get it via apt, pacman, etc.
+
 
 ## If you’re using macOS
 Maybe it's already installed; maybe it isn't. 
