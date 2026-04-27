@@ -101,9 +101,9 @@ Client                       Server
 ```
 ---
 
+# Einen Lokalen HTTP-Server starten
 
-
-Um einen **lokalen** (also nur auf Ihrem Rechner erreichbaren) Development-Server zu starten, sollten Sie zunächst die HTML-Datei generieren.
+Um einen **lokalen** (also nur auf Ihrem Rechner erreichbaren) Development-Server zu starten, sollten Sie zunächst HTML-Dateien generieren.
 Navigieren Sie dann in das HTML-Verzeichnis und starten Sie einen Server. Je nach Betriebssystem können Sie den folgenden Befehl verwenden:
 
 ```bash
