@@ -4,7 +4,7 @@ Sie können in Python auf den Code anderer Leute zugreifen, indem Sie Pakete ins
 
 Manchmal können diese Pakete jedoch Konflikte verursachen, wenn sie von unterschiedlichen Versionen des gleichen Pakets abhängig sind. Um dieses Problem zu lösen, können wir virtuelle Umgebungen verwenden.
 
-Virtuelle Umgebungen ermöglichen es Ihnen, isolierte Python-Umgebungen zu erstellen, in denen Sie Pakete installieren können, ohne dass sie mit anderen Projekten oder der globalen Python-Installation auf Ihrem Computer in Konflikt geraten.
+Virtuelle Umgebungen ermöglichen es Ihnen, isolierte Python-Umgebungen zu erstellen, in denen Sie Pakete installieren können, ohne dass sie mit anderen Projekten oder der globalen Python-Installation auf Ihrem Computer konfligieren.
 
 ## Erstellen und Aktivieren einer virtuellen Umgebung
 Um eine virtuelle Umgebung zu erstellen, können Sie das `venv`-Modul verwenden, das in Python 3.3 und höher enthalten ist:
