@@ -72,3 +72,16 @@ Read the texts. Decide then. The answers in brackets are the default answers. Pr
    - in VS Code, right-click any file or folder in the project and choose `Open in Integrated Terminal`
    - if you already have a terminal open, use `cd` to move into the project folder before continuing
 2. in the terminal type ```ant``` and hit enter. It will print some text and ```BUILD FAILED```. Don't worry about that.
+
+## Fiddling with the errors
+So will run into a few errors, since your project ist missing some parts. The ACDH provides an imprint service for its projects. Since you are not part of the ACDH, you can't use it. You will thus see an error like: 
+   ```
+   BUILD FAILED
+   …
+   …data/imprint.xml does not exist
+   ```
+   Open your build.xml file in the root dir of your project.
+   Make the xslt-step starting with the line ```<xslt in="./data/imprint.xml" out="${target}/imprint.html" style="./xslt/imprint.xsl">``` as a commentary by putting ```<!--``` in front and ```-->``` at the end of it. Do the same for the step starting with ```<xslt in="./data/imprint.xml" out="${target}/api.xml" style="./xslt/api.xsl">``` 
+
+   Rerun ant. It should work now. Remember to set up an impressum page, if you ever want to publish your project online. You can easily do so by creating the index.xml by hand. Have a look at the responsible xslt script to understand, what data/structures are required.
+
