@@ -13,16 +13,18 @@
 6. Open a new cmd terminal.
 7. Run ```ant -v``` to check if it worked. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected.
 
-## If you’re using Linux
-Try ```ant -v```, it should already be installed. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist!
-Build failed``` This actually means everything works as expected. If Ant isn’t installed for some reason, get it via apt, pacman, etc.
 
-### If you’re using macOS
-Maybe it's already installed; maybe it isn't. 
-+ Open your terminal by searching for "Terminal" via Spotlight (Cmd + Space).
-+ Type ```ant -v``` and hit enter. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected.
-+ However, if it isn't installed, 
-0. Check if Homebrew is installed by typing ```brew --version```. 
-2. If it isn't, you can install it by following the instructions at https://brew.sh/.
-3. When Homebrew is installed, install ant: ```brew install ant```.
-4. After installation, run ```ant -v``` again to verify the installation.
+## If you’re using Linux
+Try ```ant -v```, it should already be installed. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist!Build failed``` This actually means everything works as expected. If Ant isn’t installed for some reason, get it via apt, pacman, etc.
+
+
+## If you’re using macOS
+Maybe it's already installed; maybe it isn't.
+
+1. Open your terminal by searching for "Terminal" via Spotlight (Cmd + Space).
+2. Type ```ant -v``` and hit enter. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected.
+3. If it isn't installed:
+	- Check if Homebrew is installed by typing ```brew --version```.
+	- If it isn't, you can install it by following the instructions at https://brew.sh/.
+	- When Homebrew is installed, install Ant: ```brew install ant```.
+	- After installation, run ```ant -v``` again to verify the installation.

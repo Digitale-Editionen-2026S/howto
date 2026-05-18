@@ -1,7 +1,8 @@
 # Cookiecutter howto
 
-Repository URL:
-https://github.com/acdh-oeaw/dse-static-cookiecutter
+## Ant/Java
+
+The DSE-Static-Cookiecutter relies on Ant/Java. Check [this howto](ant_howto.md) if you didn't install them yet.
 
 ## Recommended: use uv
 
